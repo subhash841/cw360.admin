@@ -1,0 +1,53 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-05-21 09:03:27 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-05-21 09:14:50 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:14:50 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:15:23 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:15:23 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:15:49 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:15:49 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:16:09 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:16:09 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:16:30 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:16:30 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:17:38 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:17:38 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:18:03 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:18:03 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:42:57 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:42:57 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:47:20 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:47:20 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:47:42 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:47:42 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:47:59 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:47:59 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:48:25 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:48:25 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:48:51 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:48:51 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 09:49:08 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 09:49:08 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:16:19 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:16:19 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:16:52 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:16:52 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:17:19 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:17:19 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:18:10 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:18:10 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:18:30 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:18:30 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:18:54 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:18:54 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:19:12 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:19:12 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:19:40 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:19:40 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 11:19:59 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 79
+ERROR - 2020-05-21 11:19:59 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/add_deduct_points.php 155
+ERROR - 2020-05-21 16:54:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-05-21 16:59:45 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/subscription_trans_history.php 37
+ERROR - 2020-05-21 17:22:54 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/subscription_trans_history.php 37
+ERROR - 2020-05-21 17:57:20 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/admin.cw360/application/views/subscription_trans_history.php 37

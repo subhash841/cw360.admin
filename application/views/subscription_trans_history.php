@@ -1,0 +1,378 @@
+<section class="content">
+    <div class="container-fluid">
+        <div class="block-header">
+        </div>
+        <!-- Exportable Table -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>
+                            Transaction History
+                        </h2>
+                        <ul class="header-dropdown m-r--5">
+                            <li class="dropdown">
+                                <button type="submit" class="btn btn-danger waves-effect m-r-20" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="true" aria-controls="collapseFilter">Filter</button>
+                            </li>
+                            <li class="dropdown">
+                                <!-- <form name="export" id="export" method="POST" action="export_polls">
+                                    <button type="submit" class="btn btn-danger waves-effect m-r-20">Export</button>
+                                </form> -->
+                                <button type="submit" id="export_transaction_excel" class="btn btn-danger waves-effect m-r-20">Export to Excel</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Filter -->
+                    <div style="border: none; padding: 20px 30px">
+                        <div class="collapse" id="collapseFilter" aria-expanded="false">
+
+                            <form id="filterForm" method="POST">
+                                <div class="row">
+                                   <!--  <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <select class="form-control" name="topic_id" id="topic_id">
+                                                    <option value="">--Select Topics--</option>
+                                                    <?php
+                                                        foreach ($topics as $key => $s):
+                                                            echo '<option value="' . $s['id'] . '">' . $s['topic'] . '</option>';
+                                                        endforeach;
+                                                    ?>
+                                                </select>
+                                                <label class="form-label">Topics</label>
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" name="user_email" id="user_email"  value="">
+                                                <label class="form-label">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" name="user_mobile" id="user_mobile"  value="">
+                                                <label class="form-label">Mobile</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" name="transaction_amount" id="transaction_amount">
+                                                <label class="form-label">Transaction Amount</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" name="coins" id="coins">
+                                                <label class="form-label">Coins</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                   <!-- <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="input-group date" >
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" name="start_date" id="start_date" readonly="readonly" value="" style="background-color: transparent;">
+                                                    <label class="form-label">Start Date</label>
+                                                </div>
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-float">
+                                            <div class="input-group date" >
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" name="end_date" id="end_date" readonly="readonly" value="" style="background-color: transparent;">
+                                                    <label class="form-label">End Date</label>
+                                                </div>
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" class="form-control" name="offSet" id="offSet" readonly="readonly" value="0" style="background-color: transparent;">
+                                    </div> -->  
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12 align-center">
+                                        <button type="submit" class="btn btn-danger waves-effect" id="filterapply">APPLY FILTER</button>
+                                        <button type="submit" class="btn btn-danger waves-effect" id="filterclear">CLEAR FILTER</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>    
+                    </div>
+                    <!-- End Filter -->
+                    <div class="body">
+                        <div class="table-responsive">
+                            <table class="table table-responsive table-bordered table-striped table-hover dataTable">
+                                <thead>
+                                    <tr>
+                                        <th>#Sr.No</th>
+                                        <th>#User ID</th>
+                                        <th class="text-center">User Email</th>
+                                        <th class="text-center">User Mobile</th>
+                                        <th class="text-center">Subscription Name</th>
+                                        <th class="text-center">Transaction Amount</th>
+                                        <th class="text-center">Game Coins</th>
+                                        <th class="text-center">Reference Number</th>
+                                        <th class="text-center">Status</th>
+                                        <th class="text-center">Transaction Date</th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody class="records">
+                                    <?php
+                            
+                                    foreach ( $subsc_trans as $key => $s ):
+                                    /*  echo'<pre>'; print_r($p);*/
+                                    $num = $num + 1;
+                                            echo '<tr>'
+                                            . '<td>' . $num . '</td>'
+                                            . '<td>' . $s['user_id'] . '</td>'
+                                            . '<td>' . $s['user_email'] . '</td>'
+                                            . '<td>' . $s['user_mobile'] . '</td>'
+                                            . '<td>' . $s['package_name'] . '</td>'
+                                            . '<td>' . $s['transaction_amount'] . '</td>'
+                                            . '<td><p class="multiline-ellipsis" data-lines="1">' . $s[ 'coins' ] . '</p></td>'      
+                                            . '<td><p class="multiline-ellipsis" data-lines="1">' . $s[ 'unique_ref_number' ] . '</p></td>'
+                                            . '<td><p data-lines="1">' . $s[ 'trans_response' ] . '</p></td>'
+                                            . '<td><p class="multiline-ellipsis" data-lines="3">' . $s['transaction_date'] . '</p></td></tr>';
+                                    endforeach;
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                    <div style="padding-bottom: 25px;">
+                        <center>
+                            <button id="loadlist" class="btn btn-danger waves-effect m-r-20" data-offset="10">Load More</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Exportable Table -->
+    </div>
+</section>
+
+<!-- <div class="modal fade in" id="viewPollDetails" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="largeModalLabel"><span class="username"></span> Poll Details</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link btn-success waves-effect btn-approve">Approve</button>
+                <button type="button" class="btn btn-link btn-danger waves-effect btn-reject" data-dismiss="modal" data-toggle="modal" data-target="#reject_poll">Reject</button>-->
+                <!--<button type="button" class="btn btn-link waves-effect" data-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="modal fade in" id="reject_poll" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="largeModalLabel"><span class="username"></span> Forecasting</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link btn-success waves-effect btn-approve">Approve</button>
+                <button type="button" class="btn btn-link btn-danger waves-effect btn-reject">Reject</button>
+                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<script type="text/javascript">
+        $(function () {
+            $('#weekly_datetimepicker').datetimepicker({
+                useCurrent: false,
+                format: "DD-MM-YYYY",
+                minDate: moment().millisecond(0).second(0).minute(0).hour(0),
+                ignoreReadonly: true
+            });
+
+
+            $('#start_date').datetimepicker({
+                useCurrent: false,
+                format: "DD-MM-YYYY",
+                ignoreReadonly: true
+            });
+
+            
+            $('#end_date').datetimepicker({
+                useCurrent: false,
+                format: "DD-MM-YYYY",
+                ignoreReadonly: true
+            });
+
+
+            $('#end_datetimepicker').datetimepicker({
+                useCurrent: false,
+                format: "DD-MM-YYYY",
+                minDate: moment().millisecond(0).second(0).minute(0).hour(0),
+                ignoreReadonly: true
+            });
+
+            $("#start_date").on("dp.change", function (e) {
+                $('#end_date').data("DateTimePicker").minDate(e.date);
+            });
+            $("#end_date").on("dp.change", function (e) {
+                $('#start_date').data("DateTimePicker").maxDate(e.date);
+            });
+            $("#end_datetimepicker").on("dp.change", function (e) {
+                $("#only_end_date_change").val("1");
+            });
+
+
+
+            //Active - Inactive Games
+            $(document).on('click', '.changeactivesubscription', function (e) {
+                var subscription_id = $(this).attr('data-id');
+                var type = $(this).attr('data-type');
+                console.log(type);
+                /*var status = $(this).attr('data-status');*/
+                if (type != "") {
+                    var param = {subscription_id: subscription_id, type: type};
+                    console.log(param);
+                    ajax_call('Subscription/active_inactive_subscription', "POST", param, function (result) {
+                        console.log(result);
+                        result = JSON.parse(result);
+
+                        if (result['status']) {
+                            $("#response_message").html('<div class="btn-lg bg-green">Subscription Successfully Deleted</div>').fadeIn(2000).delay(1000).fadeOut(2000);
+                            setTimeout(function () {
+                                window.location.assign("lists");
+                            }, 2000);
+                        } else {
+                            showToast(result['message'], '0');
+                            setTimeout(function () {
+                                window.location.assign("lists");
+                            }, 2000);
+                        }
+
+
+                    });
+                }
+            });
+
+
+             $(".edit-election").on("click", function (event) {
+                event.preventDefault();
+                var json = JSON.parse($(this).attr("data-editjson"));
+                var base = "form[name='addUpdateElectionPeriod'] ";
+                $(base + "#election_period_id").val(json.id);
+                $(base + "#from_date").val(convertDate(json.from_date)).focus();
+                $(base + "#to_date").val(convertDate(json.to_date)).focus();
+                $(base + '#state_id').find("option[value='" + json.state_id + "']").prop("selected", "selected");
+                $(base + '#total_seats').val(json.total_seats).focus();
+                var selected = json.party_id.split(',');
+                for (var x in selected) {
+                    $(base + "select#optgroup").find("option[value='" + selected[x] + "']").prop("selected", "selected");
+                }
+                $('#optgroup').multiSelect();
+                $('#state_id').selectpicker('refresh');
+            });
+
+
+
+            $('#filterForm').submit(function(e){
+                e.preventDefault();
+                var data = $( '#filterForm' ).serialize();
+                console.log(data);
+                //data += '&paging=20';
+                // alert(data);
+                var output = function(cb){
+                    $('.records').html(cb);
+                };
+
+                ajax_call('Subscription/filteredList_trans', 'POST', data, output);
+                $('#loadlist').attr('disabled', false);
+                $('#loadlist').attr('data-offset', 10);
+            });
+
+
+             $('#loadlist').click(function(){
+                var offSet = $(this).attr('data-offSet');
+                // alert('Loading... '+offSet);
+
+                var data = $('#filterForm').serialize();
+                data += '&offSet=' +offSet;
+                 // alert(data);
+                var output = function(cb){
+                    if (cb != "") {
+                        $('.records').append(cb);
+                    } else {
+                        $('#loadlist').attr('disabled', true);
+                    }
+                };
+
+                ajax_call('Subscription/filteredList_trans', 'POST', data, output);
+                offSet = parseInt(offSet, 10);
+                offSet = offSet+10;
+                $(this).attr('data-offSet', offSet);
+               
+            });
+
+
+
+            $('#filterclear').click(function(){
+                // alert('Clear... ');
+                $("#filterForm").trigger('reset');
+            });
+
+            $('#export_transaction_excel').click(function(){
+                var query = '';
+                var req_url = 'exportTransaction';
+
+                if ($('#user_email').val() != "") {
+                    query += 'user_email=' + $('#user_email').val() + '&';
+                }
+                if ($('#user_mobile').val() != "") {
+                    query += 'user_mobile=' + $('#user_mobile').val() + '&';
+                }
+                if ($('#transaction_amount').val() != "") {
+                    query += 'transaction_amount=' + $('#transaction_amount').val() + '&';
+                }
+                if ($('#coins').val() != "") {
+                    query += 'coins=' + $('#coins').val() + '&';
+                }
+               
+                if (query.charAt(query.length-1) == '&') {
+                    query = query.slice(0, -1);
+                }
+                if (query != "") {
+                    req_url = req_url + '?' + query;
+                }
+                //alert(req_url);
+                window.location.assign(req_url);
+
+            });
+        });
+</script>

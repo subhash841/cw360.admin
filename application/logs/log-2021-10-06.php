@@ -1,0 +1,36 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-10-06 03:43:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-10-06 03:43:45 --> 404 Page Not Found: Adstxt/index
+ERROR - 2021-10-06 07:34:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 07:34:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 07:53:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 08:07:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 09:01:53 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 10:38:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:43:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:45:04 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:45:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:45:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:45:49 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 17:45:57 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: News/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: 2018/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Media/wp-includes
+ERROR - 2021-10-06 18:47:18 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2021-10-06 18:47:19 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2021-10-06 18:47:19 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2021-10-06 18:47:19 --> 404 Page Not Found: Sito/wp-includes
+ERROR - 2021-10-06 23:32:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-10-06 23:32:12 --> 404 Page Not Found: 8d771bdd-4937-4fe6-bd1d-f0b170524983/index
+ERROR - 2021-10-06 23:37:10 --> 404 Page Not Found: 8d771bdd-4937-4fe6-bd1d-f0b170524983/index

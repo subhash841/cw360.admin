@@ -1,0 +1,23 @@
+[Wed Feb 20 17:09:55.454109 2019] [access_compat:error] [pid 3359] [client 198.27.69.191:60965] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Wed Feb 20 17:09:55.454226 2019] [negotiation:error] [pid 3359] [client 198.27.69.191:60965] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Wed Feb 20 17:10:05.364721 2019] [access_compat:error] [pid 3589] [client 198.27.69.191:55351] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Wed Feb 20 17:10:05.364806 2019] [negotiation:error] [pid 3589] [client 198.27.69.191:55351] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Tue Mar 12 17:23:19.968629 2019] [access_compat:error] [pid 10290] [client 91.121.222.157:54534] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Tue Mar 12 17:23:19.970477 2019] [negotiation:error] [pid 10290] [client 91.121.222.157:54534] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Tue Mar 12 17:23:25.424924 2019] [access_compat:error] [pid 10289] [client 91.121.222.157:54902] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Tue Mar 12 17:23:25.424993 2019] [negotiation:error] [pid 10289] [client 91.121.222.157:54902] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Wed Mar 20 12:18:45.747798 2019] [access_compat:error] [pid 26648] [client 192.99.0.107:53441] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Wed Mar 20 12:18:45.747951 2019] [negotiation:error] [pid 26648] [client 192.99.0.107:53441] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Wed Mar 20 12:18:51.636600 2019] [access_compat:error] [pid 26503] [client 192.99.0.107:49666] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Wed Mar 20 12:18:51.636648 2019] [negotiation:error] [pid 26503] [client 192.99.0.107:49666] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Thu Mar 21 12:07:25.301094 2019] [access_compat:error] [pid 9449] [client 192.99.15.55:60033] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Thu Mar 21 12:07:25.301286 2019] [negotiation:error] [pid 9449] [client 192.99.15.55:60033] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Thu Mar 21 12:07:27.665866 2019] [access_compat:error] [pid 9189] [client 192.99.15.55:49581] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Thu Mar 21 12:07:27.665932 2019] [negotiation:error] [pid 9189] [client 192.99.15.55:49581] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Mon May 06 08:30:24.718772 2019] [core:error] [pid 23720] [client 31.202.101.40:4607] AH00126: Invalid URI in request GET /../../favicon.ico HTTP/1.1
+[Tue Jun 11 04:05:02.930820 2019] [access_compat:error] [pid 27286] [client 46.105.127.166:64653] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Tue Jun 11 04:05:02.931549 2019] [negotiation:error] [pid 27286] [client 46.105.127.166:64653] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Tue Jun 11 04:05:04.886536 2019] [access_compat:error] [pid 27288] [client 46.105.127.166:61521] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log
+[Tue Jun 11 04:05:04.886592 2019] [negotiation:error] [pid 27288] [client 46.105.127.166:61521] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated).
+[Thu Jul 25 17:38:54.203962 2019] [access_compat:error] [pid 18260] [client 180.180.152.75:38167] AH01797: client denied by server configuration: /var/www/html/cwadmin/admin.crowdwisdom.co.in-error.log, referer: http://www.google.com.hk
+[Thu Jul 25 17:38:54.204988 2019] [negotiation:error] [pid 18260] [client 180.180.152.75:38167] AH00687: Negotiation: discovered file(s) matching request: /var/www/html/cwadmin/admin (None could be negotiated)., referer: http://www.google.com.hk
